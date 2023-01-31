@@ -2,7 +2,7 @@ package com.juliavasconceloscr161.imersaospringboot.repository;
 
 
 
-import com.juliavasconceloscr161.imersaospringboot.model.User;
+import com.juliavasconceloscr161.imersaospringboot.entity.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 

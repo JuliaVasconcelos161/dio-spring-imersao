@@ -1,4 +1,4 @@
-package com.juliavasconceloscr161.imersaospringboot.model;
+package com.juliavasconceloscr161.imersaospringboot.entity;
 
 import jakarta.persistence.*;
 
@@ -47,7 +47,8 @@ public class User {
     @Override
     public String toString() {
         return "User{" +
-                "name='" + name + '\'' +
+                "id=" + id +
+                ", name='" + name + '\'' +
                 ", username='" + username + '\'' +
                 ", password='" + password + '\'' +
                 '}';

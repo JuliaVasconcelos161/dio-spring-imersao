@@ -1,6 +1,6 @@
 package com.juliavasconceloscr161.imersaospringboot;
 
-import com.juliavasconceloscr161.imersaospringboot.model.User;
+import com.juliavasconceloscr161.imersaospringboot.entity.User;
 import com.juliavasconceloscr161.imersaospringboot.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
